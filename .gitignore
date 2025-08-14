@@ -1,0 +1,12 @@
+.git
+.vscode
+.idea
+node_modules/
+dist/
+src/debug.ts
+.DS_Store
+TODO.md
+*.sh
+*.psd
+*.log
+*.zip
