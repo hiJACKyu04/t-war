@@ -70,7 +70,7 @@ export default defineConfig({
     }),
   ],
   root: './src',
-  base: '/tower_war/',
+  base: '/t-war/',
   build: {
     target: 'esnext',
     outDir: '../dist',
@@ -92,7 +92,7 @@ export default defineConfig({
   },
   assetsInclude: ['**/*.png', '**/*.jpg', '**/*.jpeg', '**/*.gif', '**/*.svg', '**/*.mp3', '**/*.wav', '**/*.ogg'],
   define: {
-    __VITE_ASSET_URL__: JSON.stringify('/tower_war/assets/'),
+    __VITE_ASSET_URL__: JSON.stringify('/t-war/assets/'),
   },
   server: {
     port: 9999,
